@@ -45,7 +45,7 @@ These metrics were selected as they provide a direct correlation to agent produc
 - BPO and in-house agents exhibit different learning paces, with in-house staff reaching targets more quickly
 - As agents progress through their learning timeline, there is a correlational growth of Productivity, AHT, and AWUT (see visual 2 below)
 - Agents in shift pattern 75 reach most of the targets by month 7, which indicates on a potential target adjustment, especially for other part-time shift types
-- Certain contact reasons that result longer handling are recommended to be excluded as well to minimize bias
+- Certain contact reasons can require longer handling and are recommended to be excluded as well to minimize bias, as they can impact AVG handling time
 
 ***Visualization***
 
