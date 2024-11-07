@@ -55,7 +55,7 @@ These metrics were selected as they provide a direct correlation to agent produc
 
 **Combined Visualization of Three Key Metrics Related to Agent Productivity**
 
-*TThe chart displays the average of each metric for shift type 75. Targets for chat handling time and wrap-up time were achieved by months 5-6 from the hire date. We can observe that as agent productivity increases over time, less time is required to handle and wrap up a chat*
+*The chart displays the average of each metric for shift type 75. Targets for chat handling time and wrap-up time were achieved by months 5-6 from the hire date. We can observe that as agent productivity increases over time, less time is required to handle and wrap up a chat*
 
 <a href="https://ibb.co/C7GmTgm"><img src="https://i.ibb.co/4TrK5zK/Screenshot-2024-11-07-at-17-10-59.png" alt="Screenshot-2024-11-07-at-17-10-59" border="0"></a>
 
