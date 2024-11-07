@@ -1,6 +1,6 @@
 ## Hi there 👋, I'm Madina!
 
-📈 **Experienced Program Manager | Data-Driven Strategist | SQL Enthusiast**
+📈 **Experienced Program Manager | Data-Driven Strategist | SQL Enthusiast | Professional Scrum Matser I**
 I’m a Program Manager with extensive experience in Customer Experience (CX), Sales, Marketing, and Operations across high-impact industries, including tourism, e-learning, consulting, and food delivery. My career has focused on implementing data-driven strategies that bridge people, business, and technology to drive results.
 
 🌟 **About Me**
