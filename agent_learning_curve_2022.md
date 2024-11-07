@@ -47,14 +47,15 @@ These metrics were selected as they provide a direct correlation to agent produc
 - Agents in shift pattern 75 reach most of the targets by month 7, which indicates on a potential target adjustment, especially for other part-time shift types
 - Certain contact reasons that result longer handling are recommended to be excluded as well to minimize bias
 
+***Visualization***
+
 Agent Learning Curve - overall learning pace for all KPIs
 
 <a href="https://ibb.co/SmFsXkb"><img src="https://i.ibb.co/YdHR75m/Screenshot-2024-11-07-at-14-03-06.png" alt="Screenshot-2024-11-07-at-14-03-06" border="0"></a>```sql
 
-Combined visualization of 3 key metrics related to the agent productivity
+Combined Visualization of Three Key Metrics Related to Agent Productivity
 
-*The chart shows AVG of each metric for the shift type 75. The targets for the chat handling time and the wrap-up time achieved on month 5-6 from the hire date*
-*We can observe that as the agent productivity grows overtime less time required to handle a chat and to wrap it up*
+*TThe chart displays the average of each metric for shift type 75. Targets for chat handling time and wrap-up time were achieved by months 5-6 from the hire date. We can observe that as agent productivity increases over time, less time is required to handle and wrap up a chat*
 
 <a href="https://ibb.co/C7GmTgm"><img src="https://i.ibb.co/4TrK5zK/Screenshot-2024-11-07-at-17-10-59.png" alt="Screenshot-2024-11-07-at-17-10-59" border="0"></a>
 
