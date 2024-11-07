@@ -5,6 +5,7 @@
 I’m a Program Manager with extensive experience in Customer Experience (CX), Sales, Marketing, and Operations across high-impact industries, including tourism, e-learning, consulting, and food delivery. My career has focused on implementing data-driven strategies that bridge people, business, and technology to drive results.
 
 🌟 **About Me**
+
 Coming from the business side, I leverage SQL as a powerful tool to gain insights, drive cross-functional collaboration, and make informed decisions. Although my primary role is not technical, SQL has been instrumental in enabling me to work closely with tech and data teams to create impactful, metric-driven products and services.
 
 🛠️ **Skills & Expertise**
