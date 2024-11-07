@@ -7,10 +7,10 @@ I’m a Program Manager with extensive experience in Customer Experience (CX), S
 Coming from the business side, I leverage SQL as a powerful tool to gain insights, drive cross-functional collaboration, and make informed decisions. Although my primary role is not technical, SQL has been instrumental in enabling me to work closely with tech and data teams to create impactful, metric-driven products and services.
 
 🛠️ **Skills & Expertise**
-Program Management: Leading and implementing projects that align with business goals, particularly in CX and Operations.
-SQL & BigQuery: Advanced SQL skills for extracting insights from data, building reports, and establishing metrics to track project and team performance.
-Data-Driven Decision Making: Applying insights to optimize processes, reduce operational costs, and enhance customer experience.
-Cross-Functional Collaboration: Facilitating collaboration between business and technical teams to ensure data initiatives support broader strategic goals.
+- Program Management: Leading and implementing projects that align with business goals, particularly in CX and Operations.
+- SQL & BigQuery: Advanced SQL skills for extracting insights from data, building reports, and establishing metrics to track project and team performance.
+- Data-Driven Decision Making: Applying insights to optimize processes, reduce operational costs, and enhance customer experience.
+- Cross-Functional Collaboration: Facilitating collaboration between business and technical teams to ensure data initiatives support broader strategic goals.
 
 📚 **Portfolio Goals**
 This portfolio is a showcase of SQL projects and queries I’ve built to solve real-world business challenges. Each project demonstrates how I use SQL to support and improve operations, optimize workflows, and contribute to data-informed strategies across different areas. I focus on projects where SQL was integral in driving cross-functional insights, improving efficiency, and ensuring metric-based decision-making.
