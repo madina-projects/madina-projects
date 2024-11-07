@@ -21,6 +21,10 @@ This portfolio is a showcase of SQL projects and queries I’ve built to solve r
 🔗 **Connect with Me**
 [LinkedIn](https://www.linkedin.com/in/madina-tleulina-62a8b9128/)
 
+Projects
+
+[Agent Learning Curve](https://github.com/madina-projects/madina-projects/blob/main/agent_learning_curve_2022.md)
+
 
 
 <!--
