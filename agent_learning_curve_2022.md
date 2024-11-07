@@ -34,7 +34,7 @@ These metrics were selected as they provide a direct correlation to agent produc
 - SQL Query: The analysis was carried out using SQL queries that extracted, aggregated, and processed the data from the company's internal databases.
 
 ***Tools***
-- BigQuery for data extraction adn aggregation
+- BigQuery for data extraction and aggregation
 - Excel for exploratory analysis and outlier identification
 - Excel/Sheets visualization
 
