@@ -47,9 +47,11 @@ These metrics were selected as they provide a direct correlation to agent produc
 - Agents in shift pattern 75 reach most of the targets by month 7, which indicates on a potential target adjustment, especially for other part-time shift types
 
 Agent Learning Curve - overall learning pace for all KPIs
+
 <a href="https://ibb.co/SmFsXkb"><img src="https://i.ibb.co/YdHR75m/Screenshot-2024-11-07-at-14-03-06.png" alt="Screenshot-2024-11-07-at-14-03-06" border="0"></a>```sql
 
 Productivity Curve for 3 shift types
+
 <a href="https://ibb.co/Tw8NFrM"><img src="https://i.ibb.co/K5q83mx/Screenshot-2024-11-07-at-14-23-44.png" alt="Screenshot-2024-11-07-at-14-23-44" border="0"></a>
 
 ```sql
