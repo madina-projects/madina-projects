@@ -45,14 +45,19 @@ These metrics were selected as they provide a direct correlation to agent produc
 - BPO and in-house agents exhibit different learning paces, with in-house staff reaching targets more quickly
 - As agents progress through their learning timeline, there is a correlational growth of Productivity, AHT, and AWUT
 - Agents in shift pattern 75 reach most of the targets by month 7, which indicates on a potential target adjustment, especially for other part-time shift types
+- Certain contact reasons that result longer handling are recommended to be excluded as well to minimize bias
 
 Agent Learning Curve - overall learning pace for all KPIs
 
 <a href="https://ibb.co/SmFsXkb"><img src="https://i.ibb.co/YdHR75m/Screenshot-2024-11-07-at-14-03-06.png" alt="Screenshot-2024-11-07-at-14-03-06" border="0"></a>```sql
 
-Productivity Curve for 3 shift types
+Combined visualization of 3 key metrics related to the agent productivity
 
-<a href="https://ibb.co/Tw8NFrM"><img src="https://i.ibb.co/K5q83mx/Screenshot-2024-11-07-at-14-23-44.png" alt="Screenshot-2024-11-07-at-14-23-44" border="0"></a>
+*The chart shows AVG of each metric for the shift type 75. The targets for the chat handling time and the wrap-up time achieved on month 5-6 from the hire date*
+*We can observe that as the agent productivity grows overtime less time required to handle a chat and to wrap it up*
+
+<a href="https://ibb.co/C7GmTgm"><img src="https://i.ibb.co/4TrK5zK/Screenshot-2024-11-07-at-17-10-59.png" alt="Screenshot-2024-11-07-at-17-10-59" border="0"></a>
+
 
 ```sql
 
