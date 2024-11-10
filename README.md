@@ -23,7 +23,8 @@ This portfolio is a showcase of SQL projects and queries I’ve built to solve r
 🗂️ **Projects**
 
 [Agent Learning Curve](https://github.com/madina-projects/madina-projects/blob/main/agent_learning_curve_2022.md)
-
+[Agent Learning Curve](https://github.com/madina-projects/madina-projects/blob/main/automated_daily_rider_performance_reporting_2023.md
+)
 
 🔗 **Connect with Me**
 [LinkedIn](https://www.linkedin.com/in/madina-tleulina-62a8b9128/)
