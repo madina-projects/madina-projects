@@ -76,7 +76,7 @@ This project has streamlined staffing processes and enhanced the company's abili
 
 **Visual 2 - Volumes and other insights**
 
-<a href='https://postimg.cc/Y4TSVYh1' target='_blank'><img src='https://i.postimg.cc/RFZnWTmb/Screenshot-2024-11-10-at-17-02-33.png' border='0' alt='Screenshot-2024-11-10-at-17-02-33'/></a><br /><a href='https://postimages.org/sv/'</a><br />
+<a href='https://postimg.cc/Y4TSVYh1' target='_blank'><img src='https://i.postimg.cc/RFZnWTmb/Screenshot-2024-11-10-at-17-02-33.png' border='0' alt='Screenshot-2024-11-10-at-17-02-33'/></a>
 
 ***QUERIES***
 
