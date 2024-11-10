@@ -71,11 +71,13 @@ The implementation of this staffing model enabled the Operations team to:
 This project has streamlined staffing processes and enhanced the company's ability to meet demand for age-restricted deliveries, ensuring a reliable and compliant service offering.
 
 **Visual 1 - Staffing model in Looker Studio**
+
 *Region and zone names are masked*
 
 <a href="https://ibb.co/GvLDttC"><img src="https://i.ibb.co/PZny991/masked-stffing.png" alt="masked-stffing" border="0"></a>
 
 **Visual 2 - Volumes and other insights**
+
 *Order volume information is masked*
 
 <a href="https://ibb.co/R2MMXXw"><img src="https://i.ibb.co/gyXX00K/volumes-masked.png" alt="volumes-masked" border="0"></a><br /><a target='_blank' href='https://sv.imgbb.com/'>phone images free download</a><br />
