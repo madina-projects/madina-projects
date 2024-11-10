@@ -29,6 +29,8 @@ This portfolio is a showcase of SQL projects and queries I’ve built to solve r
 
 [Staffing Model for Age-Restricted Deliveries](https://github.com/madina-projects/madina-projects/blob/main/staffing_model_age_restricted_delivery_2024.md)
 
+[Car Compliance Tracking in Food Delivery Operations](https://github.com/madina-projects/madina-projects/blob/main/car_compliance_tracking_2023.md)
+
 
 🔗 **Connect with Me**
 [LinkedIn](https://www.linkedin.com/in/madina-tleulina-62a8b9128/)
