@@ -92,7 +92,7 @@ END
 FROM (
   SELECT
     *,
-    ROUND(SUM(COALESCE(break_time_minutes,0) + COALESCE(working_time_min,0)),2) AS total_worked_min ---or is break included in total worked min already?
+    ROUND(SUM(COALESCE(break_time_minutes,0) + COALESCE(working_time_min,0)),2) AS total_worked_min 
   FROM (
     SELECT
       DISTINCT report_date,
@@ -100,7 +100,7 @@ FROM (
       rider_name,
       region_name,
       r.city_name,
-      team_lead_name, ---rider team lead name required to sort riders and their performance to a corresponding manager who will be revising their KPIs
+      team_lead_name, ---rider team lead name required to sort riders and their performance to a corresponding manager who will be checking their KPIs
       ROUND(SAFE_DIVIDE (completed_deliveries, working_time/3600), 2) AS UTR,  ---utilization rate for deliveries, one of key logistics KPIs in the food delivery industry
       count_late_login_5_min AS late_5min_count,  --- logged in 5 min after the start
       count_late_login_30_min AS late_30min_count, --- logged in  30 min after the start
@@ -110,10 +110,10 @@ FROM (
       ROUND(SAFE_DIVIDE(rider_accepted,rider_notified)*100,2) AS acceptance_rate_percentage,  ---rider accepting the order
       ROUND(SAFE_DIVIDE(break_time,60),2) AS break_time_minutes, --- break time
       ROUND(SAFE_DIVIDE(at_customer_time_sum,at_customer_time_count)/60,2) AS avg_at_customer_time_minutes, --- how much time rider spends at the customer location
-      CASE WHEN n_cancellations IS NULL THEN 0 ELSE n_cancellations END AS cancellations_before_pickup, ---count of cancellations caused by rider
+      CASE WHEN n_cancellations IS NULL THEN 0 ELSE n_cancellations END AS cancellations_before_pickup, ---count of cancellations caused by logistics/rider
       ROUND(SAFE_DIVIDE(working_time,3600),2) AS working_time_hours, --- worked hours
       ROUND(SAFE_DIVIDE(working_time,60),2) AS working_time_min, --- worked minutes
-      entity --- business entity needed to sort in-housr and 3PL riders
+      entity --- business entity needed to sort in-hours and 3PL riders
     FROM
       `rider_performance`  r ---masked data set
     LEFT JOIN 
