@@ -20,7 +20,7 @@ Proficient in **BigQuery, Looker Studio, Tableau, Excel**, and **Google Sheets**
 This portfolio is a showcase of SQL projects and queries I’ve built to solve real-world business challenges. Each project demonstrates how I use SQL to support and improve operations, optimize workflows, and contribute to data-informed strategies across different areas. I focus on projects where SQL was integral in driving cross-functional insights, improving efficiency, and ensuring metric-based decision-making.
 
 
-**Projects**
+🗂️ **Projects**
 
 [Agent Learning Curve](https://github.com/madina-projects/madina-projects/blob/main/agent_learning_curve_2022.md)
 
