@@ -27,7 +27,7 @@ This portfolio is a showcase of SQL projects and queries I’ve built to solve r
 [Automated Daily Rider Performance Reporting](https://github.com/madina-projects/madina-projects/blob/main/automated_daily_rider_performance_reporting_2023.md
 )
 
-[Staffing Model for Age-Restricted Deliveries](https://github.com/madina-projects/madina-projects/blob/main/staffing_model_age_restricted_delivery_2024.md))
+[Staffing Model for Age-Restricted Deliveries](https://github.com/madina-projects/madina-projects/blob/main/staffing_model_age_restricted_delivery_2024.md)
 
 
 🔗 **Connect with Me**
