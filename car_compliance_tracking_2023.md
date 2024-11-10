@@ -155,23 +155,9 @@ SELECT
   city_name,
   EXTRACT (week
   FROM (DATE_TRUNC(created_date, isoweek))) AS week,
-  region_name
-FROM (
-  SELECT
-    created_date,
-    rider_id,
-    rider_name,
-    email,
-    plate,
-    actual_start,
-    actual_end,
-    region_name,
-    city_name,
+  region_name,
     count_plates_day
   FROM (
-    SELECT
-      *
-      FROM (
         SELECT
           created_date,
           rider_id,
@@ -216,9 +202,7 @@ FROM (
           WHERE
             created_date >= current_date - 14
             AND count_registrations > 1
-            AND s.created_date >= current_date - 14)))
-    WHERE
-      check2 = 'ovlp')
+            AND s.created_date >= current_date - 14))
   WHERE
     count_plates_day >1)-- to exclude same riders whose start and end are the same
 WHERE
