@@ -36,6 +36,7 @@ This project improved regulatory compliance and reduced the risk of legal reperc
 ***Tools:***
 
 **BigQuery:** For querying and analyzing the data.
+
 **Sheets**: For exporting query results and monitoring flagged instances. The query is connected to the sheets and is updated automatically
 
 ```sql
