@@ -17,7 +17,9 @@ Using BigQuery, I developed a SQL query that tracks overlapping shifts for rider
 ***Key Components:***
 
 **Shift Data:** Start and end times of each rider's shift.
+
 **Vehicle Plate Number:** Registered vehicle plate used for deliveries.
+
 **Window Functions:**
 LAG and LEAD functions are applied to detect overlapping shifts with the same vehicle plate.
 
