@@ -96,7 +96,7 @@ WITH
     DISTINCT o.platform_order_code AS order_code,
     d.rider_id,
     o.zone_id,
-    ARRAY_TO_STRING(tags, "") AS rider_tags, --- contains tags for age verification. requires aggregation to deduplicate the records
+    ARRAY_TO_STRING(tags, "") AS order_tags, --- contains tags for age verification. requires aggregation to deduplicate the records
     entity.id,
     DATE_TRUNC(o.created_date, DAY) AS created_date
   FROM `orders` o --- masked data set
@@ -113,22 +113,15 @@ WITH
     zone_name,
     COUNT(DISTINCT rider_id) AS skilled_riders,
     COUNT(DISTINCT
-      CASE
-        WHEN currently_suspended IS TRUE THEN rider_id
-    END
-      ) AS suspended_riders,
-    COUNT(DISTINCT
-      CASE
-        WHEN absence_created IS TRUE THEN rider_id
-    END
-      ) AS absent_riders
+      CASE  WHEN currently_suspended IS TRUE THEN rider_id END) AS suspended_riders,
+    COUNT(DISTINCT CASE WHEN absence_created IS TRUE THEN rider_id END) AS absent_riders
   FROM
     `riders`
   WHERE
     currently_active = 'ACTIVE'
     AND age_delivery_skilled = 'skilled'
   GROUP BY
-    1,2 ),  --- extracts  riders who pased the compliance training to deliver age restricted goods. maps as well absent and suspended riders for future calcualtions
+    1,2 ),  --- extracts  riders who passed the compliance training to deliver age restricted goods. maps as well absent and suspended riders for future calcualtions
 
  age_restricted_orders AS (
   SELECT
@@ -139,10 +132,7 @@ WITH
       zone_id,
       created_date,
       COUNT(DISTINCT
-        CASE
-          WHEN rider_tags LIKE '%age_18%' THEN order_code --- to identify age restricted orders
-      END
-        ) AS order_count
+        CASE WHEN order_tags LIKE '%age_18%' THEN order_code --- to identify age restricted orders END) AS order_count
     FROM
       orders
     GROUP BY
@@ -160,10 +150,7 @@ WITH
       rider_id,
       zone_id,
       COUNT(DISTINCT
-        CASE
-          WHEN rider_tags LIKE '%age_18%' THEN order_code --- to identify age restricted orders
-      END
-        ) AS order_rider_day
+        CASE WHEN order_tags LIKE '%age_18%' THEN order_code --- to identify age restricted orders END) AS order_rider_day
     FROM
       orders
     WHERE
@@ -292,7 +279,7 @@ WITH
     d.rider_id,
     o.created_date,
     zone_id,
-    ARRAY_TO_STRING(tags, "","") AS rider_tags, 
+    ARRAY_TO_STRING(tags, "","") AS order_tags, 
     vendor.vendor_code,
     vendor.name,
     vendor.vertical_type,
@@ -318,7 +305,7 @@ SELECT
   vendor_code,
   vertical_type,
   rider_id,
-  rider_tags,
+  order_tags,
   order_status,
   id AS global_entity_id,
   decline_type,
@@ -331,7 +318,7 @@ LEFT JOIN
 ON
   c.zone_id = o2.zone_id
 WHERE
-  rider_tags LIKE '%age_18%'
+  order_tags LIKE '%age_18%'
   AND o2.created_date BETWEEN current_date -180
   AND current_date 
 
