@@ -5,7 +5,7 @@
 In this project, I developed an automated SQL query to streamline daily monitoring of rider performance for **Team Leads** in a food delivery company. Previously, Team Leads depended on the Operations team to manually export performance data in CSV format, a process that was inefficient, prone to disruptions, and created unnecessary dependencies. Due to access restrictions, Team Leads could not directly use the company dashboard for real-time data.
 
 ***Solution:***
-- I designed a SQL query in BigQuery and connected it to Google Sheets to automatically export key rider performance KPIs.
+- I designed a SQL query in BigQuery and connected it to Google Sheets to automatically export main rider performance KPIs.
 - This setup eliminated the need for manual CSV exports, enabling Team Leads to access up-to-date performance metrics directly and independently.
 
 ***Key Performance Indicators (KPIs) Tracked:***
