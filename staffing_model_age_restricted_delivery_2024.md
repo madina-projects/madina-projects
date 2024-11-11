@@ -52,7 +52,7 @@ Demand_vs_actual``` column used conditional formatting to highlight negative val
 
 ***Model Constraints:***
 
-- The model does not account for last-minute absences (e.g., no-shows, sicknesses), but the use of buffer percentages mitigates this risk due to the low share of age-restricted orders.
+- The model does not account for last-minute absences (e.g., no-shows, sicknesses), but the use of buffer percentages mitigates this risk.
 
 - The model relies on average metrics, which may skew results slightly. However, given the historically low variance in age-restricted order volumes, using averages is considered reliable. If order dynamics change significantly, the model can be adapted accordingly.
 
