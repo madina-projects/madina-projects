@@ -81,7 +81,7 @@ This project has streamlined staffing processes and enhanced the company's abili
 
 *Order volume information is masked*
 
-<a href="https://ibb.co/R2MMXXw"><img src="https://i.ibb.co/gyXX00K/volumes-masked.png" alt="volumes-masked" border="0"></a><br /><a target='_blank' href='https://sv.imgbb.com/'>phone images free download</a><br />
+<a href="https://ibb.co/R2MMXXw"><img src="https://i.ibb.co/gyXX00K/volumes-masked.png" alt="volumes-masked" border="0"></a>
 
 ***QUERIES***
 
