@@ -18,7 +18,7 @@ The goal was to develop a predictive staffing model to determine the number of r
 
 **avg_orders_zone_per_day:** Average daily number of age-restricted orders per delivery zone.
 
-**avg_orders_rider_day:** Average number of age-restricted orders delivered by a rider per day.
+**avg_orders_rider_day:** Average number of age-restricted orders delivered by a rider per day for each zone.
 Using these metrics, the baseline for the required number of skilled riders was calculated:
 
 *Base riders needed = avg_order_zone_per_day/avg_orders_rider_day*
