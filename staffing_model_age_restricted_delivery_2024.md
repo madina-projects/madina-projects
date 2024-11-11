@@ -17,6 +17,7 @@ The goal was to develop a predictive staffing model to determine the number of r
 - Order Volume Metrics (Based on the last 3 months):
 
 **avg_orders_zone_per_day:** Average daily number of age-restricted orders per delivery zone.
+
 **avg_orders_rider_day:** Average number of age-restricted orders delivered by a rider per day.
 Using these metrics, the baseline for the required number of skilled riders was calculated:
 
