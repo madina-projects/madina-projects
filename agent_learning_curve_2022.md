@@ -51,7 +51,7 @@ These metrics were selected as they provide a direct correlation to agent produc
 
 *Agent Learning Curve - abstract model*
 
-<a href="https://ibb.co/SmFsXkb"><img src="https://i.ibb.co/YdHR75m/Screenshot-2024-11-07-at-14-03-06.png" alt="Screenshot-2024-11-07-at-14-03-06" border="0"></a>```sql
+<a href="https://ibb.co/SmFsXkb"><img src="https://i.ibb.co/YdHR75m/Screenshot-2024-11-07-at-14-03-06.png" alt="Screenshot-2024-11-07-at-14-03-06" border="0"></a>
 
 **Combined Visualization of Three Key Metrics Related to Agent Productivity**
 
