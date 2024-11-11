@@ -8,11 +8,11 @@ To ensure legal compliance in a food delivery company by identifying instances w
 
 ***Problem:*** 
 
-Riders were found to be sharing vehicle plates across different cars, leading to non-compliance with commercial regulations. This issue needed a systematic process to identify and address unauthorized usage of vehicle plates during delivery shifts.
+Riders can share vehicle plates across different cars (e.g., family members working for the same company). However, they should have different shift times. If shifts overlap and the same vehicle plate is used, it indicates one driver is using an unregistered vehicle, leading to regulatory non-compliance. A systematic process is needed to detect and prevent unauthorized vehicle usage during shifts.
 
 ***Solution:***
 
-Using BigQuery, I developed a SQL query that tracks overlapping shifts for riders using the same vehicle plate. The query utilizes LAG and LEAD window functions to analyze shift start and end times, partitioned by the vehicle plate number. This approach helps in pinpointing cases where two or more riders have shifts at the same time using the same vehicle plate, indicating potential misuse.
+Using BigQuery, I developed a SQL query that tracks overlapping shifts for riders using the same vehicle plate. The query utilizes LAG and LEAD window functions to analyze shift start and end times, partitioned by the vehicle plate number. This approach helps in pinpointing cases where two or more riders have shifts at the same time using the same vehicle plate, indicating potential compliance breach.
 
 ***Key Components:***
 
