@@ -29,7 +29,7 @@ Using these metrics, the baseline for the required number of skilled riders was 
 
 - Buffer Calculation:
 
-A buffer percentage (0.50 or 0.75) is applied to account for fluctuations in rider availability and unexpected absences:
+A buffer percentage (0.50 or 0.75) is applied to account for fluctuations in rider availability and unexpected absences. The percentage depends on the zone size:
 
 *Riders Needed with Buffer=(Base Riders Needed×Buffer %)+Base Riders Needed*
 
