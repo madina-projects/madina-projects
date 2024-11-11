@@ -9,7 +9,9 @@ In this project, I developed an automated SQL query to streamline daily monitori
 - This setup eliminated the need for manual CSV exports, enabling Team Leads to access up-to-date performance metrics directly and independently.
 
 ***Key Performance Indicators (KPIs) Tracked:***
+
 *Calculations are based on the internal company definitions*
+
 - Utilization Rate (UTR)
 - Working Time (Hours)
 - Late Arrivals: Late 5 min count, Late 30 min count
