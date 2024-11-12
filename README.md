@@ -10,7 +10,7 @@ Coming from the business side, I leverage SQL as a powerful tool to gain insight
 
 🛠️ **Skills & Expertise**
 - Program Management: Leading and implementing projects that align with business goals, particularly in CX and Operations.
-- SQL & BigQuery: Advanced SQL skills for extracting insights from data, building reports, and establishing metrics to track project and team performance.
+- SQL & BigQuery: Advanced SQL skills for extracting insights from data, building reports, and establishing metrics to track project and team performance. Developing analytical models to evaluate performance, automate reporting and identify anomalies
 - Data-Driven Decision Making: Applying insights to optimize processes, reduce operational costs, and enhance customer experience.
 - Cross-Functional Collaboration: Facilitating collaboration between business and technical teams to ensure data initiatives support broader strategic goals.
 
