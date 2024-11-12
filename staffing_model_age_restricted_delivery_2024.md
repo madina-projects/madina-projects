@@ -1,4 +1,4 @@
-***Staffing Model for Age-Restricted Deliveries***
+***Analyitical Staffing Model for Age-Restricted Deliveries***
 
 *The queries can be found in the end of the file*
 
