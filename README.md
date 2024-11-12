@@ -14,7 +14,7 @@ Coming from the business side, I leverage SQL as a powerful tool to gain insight
 - Data-Driven Decision Making: Applying insights to optimize processes, reduce operational costs, and enhance customer experience.
 - Cross-Functional Collaboration: Facilitating collaboration between business and technical teams to ensure data initiatives support broader strategic goals.
 
-Proficient in **BigQuery, Looker Studio, Tableau, Excel**, and **Google Sheets** for creating dashboards, automating reports, and delivering actionable insights.
+Proficient in **BigQuery, Looker Studio, Excel**, and **Google Sheets** for creating dashboards, automating reports, and delivering actionable insights.
 
 📚 **Portfolio Goals**
 This portfolio is a showcase of SQL projects and queries I’ve built to solve real-world business challenges. Each project demonstrates how I use SQL to support and improve operations, optimize workflows, and contribute to data-informed strategies across different areas. I focus on projects where SQL was integral in driving cross-functional insights, improving efficiency, and ensuring metric-based decision-making.
