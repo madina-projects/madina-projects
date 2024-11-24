@@ -173,13 +173,13 @@ WITH
     z.id AS zone_id,
     region_name
   FROM
-    `fulfillment-dwh-production.curated_data_shared.countries` cc
+    `countries` cc --- masked dataset
   LEFT JOIN
     UNNEST(cities) AS c
   LEFT JOIN
     UNNEST(c.zones) AS z
   LEFT JOIN
-    `foodora-bi-se.bl_performance.lg_dim_regions` r
+    `regions` r --- regions dataset
   ON
     r.city_id = c.id
   WHERE
